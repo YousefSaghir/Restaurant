@@ -11,10 +11,6 @@ body, html{
 }
 
 body{
-    background-image:url(https://storage.googleapis.com/webdesignledger.pub.network/LaT/edd/2016/02/seamless-background-textures-15-780x780.jpg);
-    background-size: cover;
-    margin: 0;
-    padding: 0;
     width: 100%;
 }
 header{
@@ -32,9 +28,9 @@ header{
 }
 nav {
     width: 100%;
-      background-color: #4B2800;
+      background-color:rgba(0,0,0,0.4);
     height: auto;
-      box-shadow: 5px 2px 5px rgba(51,27,0,1); 
+      box-shadow: 5px 2px 5px rgba(250,250,250,0.2); 
     
 }
 nav ul{
@@ -52,11 +48,9 @@ nav ul li{
     padding: 0.8% 3%;
   transition-duration: 1s;
     transition-timing-function:linear;
-    background-color: #4B2800;
 }
 .Make-li{
     float: right;
-   background-color: #4B2800;
 }
 nav ul li a{
     padding: 0;
@@ -105,8 +99,7 @@ top:2%;
 }
 
 nav ul li:hover {
-   background-color: #e6bc8cad; 
-    box-shadow: 1px -2px 3px rgba(0,0,0,0.5);
+    box-shadow: 1px -2px 3px rgba(250,250,250,0.3);
         transform:scale(1.07)
 
 }
@@ -163,20 +156,21 @@ nav ul li{ font-size: 18px;padding: 1.3% 3%;}
 
 #div-menu{
     text-align: center;
-    background-color: #F3C292;
     border-radius:20px;
     box-shadow:
-     inset   0px -2px 5px rgba(51,27,0,0.5);
+     inset   0px -2px 5px rgba(51,27,0,0.2);
 }
 #h2{
-    background-color: aquamarine;
+    background-color: silver;
     padding: 2% 0;
     
 }
 
 #h2 h2{
-    background-color: #F3C292;
-    width: 100%
+    color: snow;
+    background-color:rgba(0,0,0,0.7);
+    width: 100%;
+    padding: 2%
 }
 
 #div-menu ul{
@@ -220,10 +214,9 @@ nav ul li{ font-size: 18px;padding: 1.3% 3%;}
 }
 
 #list-menu{
-    background-color: #F3C292;
      border-radius:20px;
      box-shadow:
-      inset  0px -2px 5px rgba(51,27,0,0.5);
+      inset  0px -2px 5px rgba(51,27,0,0.2);
 }
 
 
@@ -243,19 +236,20 @@ nav ul li{ font-size: 18px;padding: 1.3% 3%;}
        -5px -5px 5px rgba(51,27,0,0.5);
 }
 #div-images figcaption{
+    color: snow;
+    background-color:rgba(0,0,0,0.7);
+    padding: 1%;
     font-size: 24px;
-    background-color: snow;
-    width: 25%;
+    width: 50%;
     margin: 1% auto;
    
 }
 
 #div-images{
     text-align: center;
-    background-color: #F3C292;
      border-radius:20px;
     box-shadow: 
-      inset  0px -2px 5px rgba(51,27,0,0.5);
+      inset  0px -2px 5px rgba(51,27,0,0.2);
 }
 
 @media (max-width: 575.98px) { 
@@ -505,17 +499,16 @@ nav ul li{ font-size: 18px;padding: 1.3% 3%;}
 
 #div-video{
      border-radius: 2%;
-      background-color: #F3C292;
     padding: 25px;
     margin: 5% auto;
-    box-shadow:inset 5px 2px 5px rgba(51,27,0,0.5) ,
-     inset   -5px -2px 5px rgba(51,27,0,0.5);
+    box-shadow:inset 5px 2px 5px rgba(51,27,0,0.1) ,
+     inset   -5px -2px 5px rgba(51,27,0,0.1);
 }
 #div-video iframe{
     width: 100%;
     height: 100%;
-    box-shadow: 5px 2px 5px rgba(51,27,0,1) ,
-        -5px -2px 5px rgba(51,27,0,1);
+    box-shadow: 5px 2px 5px rgba(51,27,0,0.1) ,
+        -5px -2px 5px rgba(51,27,0,0.1);
    
 }
 @media (max-width: 575.98px) {
@@ -525,7 +518,7 @@ nav ul li{ font-size: 18px;padding: 1.3% 3%;}
         padding: 0 !important;
     }
 #div-video{
-     width: 75%;
+     width: 95%;
     margin: 0% auto 5% auto;
   height: auto
     
@@ -559,7 +552,7 @@ nav ul li{ font-size: 18px;padding: 1.3% 3%;}
         padding: 0 !important;
     }
 #div-video{
-      width: 75% !important;
+      width: 95% !important;
    
 }
 #div-video iframe{
@@ -593,13 +586,11 @@ nav ul li{ font-size: 18px;padding: 1.3% 3%;}
 /*-----------------------------------------start third part main----------------------------------*/
 #content-team{
     width: 100%;
-     background-color: #CCA47B;
     height: 800px;
 }
 
 #div-team{
     height: 800px;
-     background-color: #CCA47B;
 }
 
 #div-team img{
@@ -610,7 +601,6 @@ nav ul li{ font-size: 18px;padding: 1.3% 3%;}
 #info-team{
     height: 800px;
     text-align: center;
-    background-color: #CCA47B;
     position: relative;
 }
 #info-team img{
@@ -621,8 +611,8 @@ nav ul li{ font-size: 18px;padding: 1.3% 3%;}
 #info-team p{
     font-size: 20px;
     text-align: justify;
-     margin: 5% 1%;
-    line-height: 1.7
+     margin: 7% 1%;
+    line-height: 1.9
 }
 #info-team p span{
     font-size:  20px;
@@ -633,9 +623,11 @@ nav ul li{ font-size: 18px;padding: 1.3% 3%;}
 #info-team h2{
      font-size:  28px;
      font-weight: bolder;
-    margin: 4%;
+    margin:0 1% 8% 1%;
     color: snow;
-    text-shadow: 2px 3px 5px rgba(10,10,10,0.8)
+    text-shadow: 2px 3px 5px rgba(10,10,10,0.8);
+    background-color: rgba(0,0,0,0.7);
+    padding: 2%
 }
 
 @media (max-width: 575.98px) { 
@@ -765,7 +757,7 @@ nav ul li{ font-size: 18px;padding: 1.3% 3%;}
     font-size: 20px;
     text-align: left;
     line-height: 1.9;
-    margin: 15% auto;
+    margin: 25% auto;
        
 }
 #info-team p span{
@@ -794,9 +786,9 @@ nav ul li{ font-size: 18px;padding: 1.3% 3%;}
 
 /*-----------------------------------------start fourth part main----------------------------------*/
 #fourth{
-    background-color: #336D7F;
     width: 100%;
     height: 600px;
+    background-color: rgba(0,0,0,0.7)
 }
 #reserve{
 }
@@ -805,13 +797,20 @@ nav ul li{ font-size: 18px;padding: 1.3% 3%;}
      margin: 5% 0 ;
     text-align: center;
 color: snow;
-    text-shadow: 2px 3px 5px rgba(10,10,10,0.8)
+    text-shadow: 2px 3px 5px rgba(10,10,10,0.8);
+    width: auto;
+    padding: 2%
         }
 
 #reserve h3{
     text-align: center;
     font-size: 22px;
     margin-top: 5%;
+    margin: auto;
+    color: snow;
+    text-shadow: 2px 3px 5px rgba(10,10,10,0.8);
+    width: 50%;
+    padding: 1%
 }
 #div-sel{
     width: 35%;
@@ -819,7 +818,7 @@ color: snow;
     float: left;
 }
 #div-sel select{
-    padding: 2% 25%;
+    padding: 3% 25%;
     background-image: url(https://image.flaticon.com/icons/svg/40/40358.svg);
      background-repeat: no-repeat;
      background-position: 7% 50%;
@@ -829,8 +828,8 @@ color: snow;
     
     margin:0 auto;
 }
-#content select option{
-    font-size: 16px;
+#div-sel select option{
+    font-size: 18px;
 }
 
 
@@ -855,8 +854,8 @@ width: 50%;
 width: 65%;
      padding: 5% 0;
 }
-    #content select option:nth-of-type(even){
-        background-color: gray;
+    #div-sel select option:nth-of-type(even){
+        background-color: rgba(0,0,0,0.2);
     }
 
 @media (max-width: 575.98px) { 
@@ -902,8 +901,9 @@ width: 100%;
 @media (min-width: 576px) and (max-width: 767.98px) { 
  #reserve{
          width: 100% !important;
-         margin:2% auto;
-        text-align: center
+         margin:1% auto;
+        text-align: center;
+   height:auto
     }
     #reserve h1{
         font-size: 24px !important;
@@ -912,15 +912,14 @@ width: 100%;
         font-size: 20px !important;
     }
 #div-sel{
-    margin:1% auto !important;
+    margin:auto !important;
     width: 100% !important;
     float: none !important;
 }
 #div-sel select{
     padding: 1.5% 25%;
     font-size: 18px;
-    width: 75% !important;
-    margin:2% auto !important;
+    width: 75% !important
 }
     #div-in{
     float: none;
@@ -928,7 +927,7 @@ width: 100%;
 }
     #div-in input{
         width: 75%;
-        margin: 2% auto;
+        margin: 1% auto;
         float: none;
     }
 
@@ -1026,13 +1025,10 @@ width: 50%;
 
 /*-----------------------------------------end main----------------------------------*/
 /*-------------------------------------start about us--------------------*/
-.content-about{
-     background-color: #CCA47B;
-   }
+
 #about{
     margin: auto;
     padding: 3% 0.5%;
-     background-color: #CCA47B;
 }
 #about p{
    font-size: 18px;
@@ -1040,14 +1036,17 @@ width: 50%;
 }
 #about p strong{
    font-size: 19px;
-    color: snow;
+    color: blue;
     margin: 0.8%
 }
 #about h2{
     text-align: center;
     font-size: 28px;
     color: snow;
-    text-shadow: 2px 3px 5px rgba(10,10,10,0.8)
+    text-shadow: 2px 3px 5px rgba(10,10,10,0.8);
+    background-color: rgba(0,0,0,0.7);
+    width: auto;
+    padding: 2%
 }
 @media (max-width: 575.98px) {
 
@@ -1157,9 +1156,7 @@ width: 50%;
 
 /*-------------------------------------start footer--------------------*/
 
-#image-info {
-     background-color: burlywood;
-}
+
 #image-info  ul{
     text-align: center;
     list-style-type: none;
@@ -1186,9 +1183,7 @@ width: 50%;
     padding: 0;
     margin: 15%;
 }
-#contact{
-    background-color: burlywood;
-}
+
 #contact iframe{
     width: 100%;
     height: 100%
@@ -1198,15 +1193,15 @@ width: 50%;
     font-size: 28px;
      color: snow;
     text-shadow: 2px 3px 5px rgba(10,10,10,0.8);
-      margin: 5% 0
+      margin: 5% 0;
+    background-color: rgba(0,0,0,0.7);
+    width: auto;
+    padding: 2%
 }
 #info-opening p{
     font-size: 20px;
     line-height: 1.5;
     margin: 5% 0
-}
-#info-opening{
-     background-color: burlywood;
 }
 
 
@@ -1445,4 +1440,3 @@ width: 50%;
 .cf {
     *zoom: 1;
 }
-
